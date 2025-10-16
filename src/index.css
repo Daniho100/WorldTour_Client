@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+
+.custom-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .option-item {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .option-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-btn:focus {
+    border-color: #007bff;
+  }
+  
