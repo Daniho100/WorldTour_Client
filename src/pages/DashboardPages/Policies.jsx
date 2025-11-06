@@ -1,26 +1,3 @@
-// import ChartPage from "../../comppnents/Dashboard/ChartPage";
-
-
-
-// const Policies = () => {
-//   return (
-//     <div>
-//       <ChartPage title="Policy" />
-//     </div>
-//   )
-// }
-
-// export default Policies
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';

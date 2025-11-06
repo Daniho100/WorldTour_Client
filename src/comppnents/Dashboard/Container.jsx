@@ -22,7 +22,7 @@ const Container = () => {
                     <p className='font-bold text-black text-base'>Policies</p>
                   </div>
                   <div><Dropdown /></div>
-                  {/* <img src={assets.plusIcon} alt="" /> */}
+                  <img src={assets.plusIcon} alt="" />
                 </div>
                 <div className='bg-primary2 flex flex-row flex-wrap justify-between items-center px-3 py-3.5  w-full rounded-md'>
                   <p className='text-xs font-medium text-accent whitespace-nowrap'>Total no. of Policies</p>
@@ -89,7 +89,7 @@ const Container = () => {
                     <p className='font-bold text-black text-base'>Roles</p>
                   </div>
                   <div><Dropdown /></div>
-                  {/* <img src={assets.plusIcon} alt="" /> */}
+                  <img src={assets.plusIcon} alt="" />
                 </div>
                 <div className='bg-primary2 flex flex-row justify-between items-center px-3 py-3.5  w-full h-[57px] rounded-md'>
                   <p className='text-xs font-medium text-accent whitespace-nowrap'>Total no. of Roles</p>
@@ -105,7 +105,7 @@ const Container = () => {
                     <p className='font-bold text-black text-base'>Users</p>
                   </div>
                   <div className='z-20'><Dropdown /></div>
-                  {/* <img src={assets.plusIcon} alt="" /> */}
+                  <img src={assets.plusIcon} alt="" />
                 </div>
                 <div className='flex justify-between items-end w-full'>
                   <div className='flex flex-col gap-2 justify-center '>
@@ -135,7 +135,7 @@ const Container = () => {
                     <img className='w-14' src={assets.complaints} alt="" />
                     <p className='font-bold text-black text-base'>Branch / Agencies</p>
                   </div>
-                  {/* <img src={assets.plusIcon} alt="" /> */}
+                  <img src={assets.plusIcon} alt="" />
                 </div>
                 <div className='flex flex-col gap-1 w-full'>
                   <div className='flex flex-row justify-between items-center p-2 px-3 w-full h-[45px] bg-primary2 rounded-[4px]'>
