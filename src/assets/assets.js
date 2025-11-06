@@ -25,7 +25,7 @@ import arrowdown from './arrowdown.svg';
 import doublearrow from './doublearrow.svg';
 import dotdotdot from './dotdotdot.svg';
 import arc from './arc.svg';
-import plusIcon from './plusicon.svg';
+import plusIcon from './plusIcon.svg';
 import exit from './exit.svg';
 import user3 from './user3.svg';
 import roles3 from './roles3.svg';
